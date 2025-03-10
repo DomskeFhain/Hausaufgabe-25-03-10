@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kein Spaß mit Listen</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <input id="userInput" placeholder="Put in List items, divided with comma">
+    <button onclick="setUserInputList()">Elemente hinzufügen</button>
+
+    <br><br>
+
+    <input id="singleInput" placeholder="Einzelnes Element hinzufügen">
+    <button onclick="addSingleItem()">Item hinzufügen</button>
+
+    <br><br>
+
+    <div id="liste"></div>
+
+    <br>
+    <button onclick="removeLastItem()">Letztes Element löschen</button>
+</body>
+</html>
